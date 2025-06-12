@@ -1,0 +1,31 @@
+exp_name: dip_coco_small_env
+data_dir_base: data/
+max_epoch: 5
+epochs: 5
+warmup_epochs: 0
+batch_size: 4
+num_workers: 4
+save_freq: 1
+keep_freq: 10
+model_name: DIPNet
+dataset: COCO_pairs_list_
+pairs_file_directory: pairs/
+dataset_val: COCO_pairs_list_smaller_
+diffcut: true
+base_lr: 1.5e-07
+data_params:
+  hacienda: False
+  mask_dir: masks/dip_COCO_masks/ 
+model_params:
+  image_backbone: small
+  enc_embed_dim: 384
+  do_training: 1
+  num_classes: 1000
+  interpolate: nearest
+  beta: 0.07
+  layers_to_finetune: 3
+  do_distractors: true
+  n_distractor_samples: 7
+  mlp_ratio: 7
+  mlp_out_features: 6144
+  image_size: 224

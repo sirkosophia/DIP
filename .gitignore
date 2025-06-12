@@ -1,0 +1,17 @@
+scripts/
+data/
+*.pt
+*.pth
+__pycache__/
+*/__pycache__/
+*/data/
+*/masks/
+*/output/
+*/wandb/
+wandb/
+*.log
+output/
+masks/
+data/
+hummingbird/configs_dip_hummingbird/*
+pairs/
