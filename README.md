@@ -30,7 +30,7 @@ src="https://img.shields.io/static/v1?label=Project&message=Website&color=green"
 
 ## Environment
 ```
-git clone https://github.com/...
+git clone https://github.com/sirkosophia/DIP.git
 cd dip 
 
 conda create -n dip python=3.10.13 -y -c conda-forge
@@ -54,7 +54,17 @@ rm train2017.zip
 rm val2017.zip
 
 ```
+The structure for training and evaluation should be as follows:
+```
+dataset root.
+├── COCO
+│   ├── images
+│   │   ├── train2017
+|   |   |   │   *.jpg
+│   │   ├── val2017
+|           │   *.jpg
 
+```
 ##### ADE20K
 Download ADE20K and VOC datasets fro evaluation 
 
