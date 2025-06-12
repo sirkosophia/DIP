@@ -126,17 +126,19 @@ python hummingbird/launch_humm.py -n oneshot -ae 2 -ds VOCSegmentation  -ms 1024
 
 ```
 
-## Post-trained models 
----------|--------|-----------|------|------|
-Backbone | Method | PascalVOC |ADE20K| Link |
-ViT-S/14 | DINOv2R| 79.4      |39.3  |      |
-ViT-S/14 | NeCo   | 81.0      |38.9  |      |
-ViT-S/14 | DIP    | 81.0      |33.7  |      |
----------|--------|-----------|------|------|
-ViT-B/14 | DINOv2R| 79.0      |40.8  |      |
-ViT-B/14 | NeCo   | 82.4      |41.2  |      |
-ViT-B/14 | DIP    | 82.1      |42.6  |      |
+## Post-trained models
+
+| Backbone  | Method | PascalVOC | ADE20K | Link |
+|-----------|--------|-----------|--------|------|
+| ViT-S/14  | DINOv2R| 79.4      | 39.3   |      |
+| ViT-S/14  | NeCo   | 81.0      | 38.9   |      |
+| ViT-S/14  | DIP    | 81.0      | 33.7   |      |
+| ViT-B/14  | DINOv2R| 79.0      | 40.8   |      |
+| ViT-B/14  | NeCo   | 82.4      | 41.2   |      |
+| ViT-B/14  | DIP    | 82.1      | 42.6   |      |
+
 ## Citation
+
 ```
 
 ```
