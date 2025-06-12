@@ -62,7 +62,7 @@ dataset root.
 │   │   ├── train2017
 |   |   |   │   *.jpg
 │   │   ├── val2017
-|           │   *.jpg
+|   |   |   │   *.jpg
 
 ```
 ##### ADE20K
