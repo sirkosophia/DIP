@@ -1,0 +1,8 @@
+PyYAML==6.0.1
+torch==2.2.1
+numpy==1.26.3
+scann==1.3.4
+torchvision==0.17.1
+einops==0.8.0
+pytorch-lightning==2.4.0
+wandb==0.18.5
