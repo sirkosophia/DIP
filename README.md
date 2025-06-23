@@ -143,5 +143,7 @@ This repo relies on the following projects:
 
 [CroCo: Self-Supervised Pre-training for 3D Vision Tasks by Cross-View Completion](https://github.com/naver/croco)
 
+[DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut](https://github.com/PaulCouairon/DiffCut)
+
 
 
