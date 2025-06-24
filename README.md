@@ -16,13 +16,9 @@ DIP: Unsupervised Dense In-Context Post-training of Visual Representations
 <a href="https://thome.isir.upmc.fr">Nicolas Thome</a>&ensp;
 </h2>
 
-
-<!-- <p></p>
-<a href="https://arxiv.org/abs/2406.02842v2"><img
-src="https://img.shields.io/badge/arXiv-DiffCut-b31b1b.svg" height=25em></a>
-<a href="https://diffcut-segmentation.github.io"><img 
-src="https://img.shields.io/static/v1?label=Project&message=Website&color=green" height=25em></a> -->
-
+<p></p>
+<a href="https://arxiv.org/abs/2506.18463"><img
+src="https://img.shields.io/badge/arXiv-DIP-b31b1b.svg" height=25em></a>
 
 ![main_figure.png](./assets/main_figure.png)
 
@@ -133,7 +129,15 @@ python hummingbird/launch_humm.py -n oneshot -ae 2 -dn ade20k  -ms 10240000  -is
 
 
 ```
-
+@misc{sirkogalouchenko2025dipunsuperviseddenseincontext,
+      title={DIP: Unsupervised Dense In-Context Post-training of Visual Representations}, 
+      author={Sophia Sirko-Galouchenko and Spyros Gidaris and Antonin Vobecky and Andrei Bursuc and Nicolas Thome},
+      year={2025},
+      eprint={2506.18463},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.18463}, 
+}
 ```
 
 ## Acknowledgements
