@@ -5,7 +5,7 @@ DIP: Unsupervised Dense In-Context Post-training of Visual Representations
 </h1>
 
 <h2>
-ICCV 2025!
+ICCV 2025
 <br>
 <br>
 <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Sophia Sirko-Galouchenko</a>&ensp;
