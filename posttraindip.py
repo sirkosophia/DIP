@@ -104,7 +104,7 @@ def build_output_dir(args: argparse.Namespace, config: Dict[str, Any]) -> Path:
 def build_datasets(args: argparse.Namespace, config: Dict[str, Any]) -> (Iterable, Iterable):
     """Build training and validation datasets and return DataLoaders."""
     data_params = config.get("data_params", {})
-    pairs_file_directory = config.get("pairs_file_directory", '/home/ssirkoga/workspace/crocodino/data/')
+    pairs_file_directory = config.get("pairs_file_directory")
     dataset_val_name = config.get("dataset_val", args.dataset)
     print(f"Building dataset for {args.dataset} with parameters: {data_params}")
 
@@ -363,6 +363,6 @@ def main(args: argparse.Namespace, config: Dict[str, Any]):
 if __name__ == '__main__':
     parser = get_args_parser()
     args = parser.parse_args()
-    print(colored("Loading configuration...", "light_blue"))
+    print(colored("Loading configuration...", "blue"))
     config = load_model_config(args.config)
     main(args, config)
