@@ -14,4 +14,4 @@ output/
 masks/
 data/
 hummingbird/configs_dip_hummingbird/*
-pairs/
+pairs/eval_scores.txt
